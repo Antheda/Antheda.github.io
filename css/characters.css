@@ -1,0 +1,38 @@
+body 
+{
+min-width: 400px;
+	max-width: 1450px;
+	max-height: 300px;
+
+	background-image: url('../images/characters.jpg');
+	background-size: cover;
+	
+	
+
+}
+nav, main, aside, section, li{
+
+	height: 70px;
+}
+
+nav {
+	margin: 75px;
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#banner {
+	max-width: 1800px;
+	min-width: 1680px;
+	min-height: 1900px;
+	vertical-align: bottom;
+	margin: 0 0 0 152px;
+	font-size: 50px;
+	font-color: white;
+	font-family: microsoft yi baiti;}
+
+	a:hover{ color:red; }
+
+	a {
+		color: white;
+		text-decoration: none}

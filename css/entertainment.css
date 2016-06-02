@@ -1,0 +1,67 @@
+body 
+{
+min-width: 400px;
+	max-width: 1450px;
+	max-height: 300px;
+
+	background-image: url('../images/tv.jpg');
+	background-size: cover;
+	
+	
+
+}
+
+h1 {
+	font-size: 80px;
+}
+
+
+nav {
+	margin: 75px;
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 70px;
+}
+#banner {
+	max-width: 1800px;
+	min-width: 1800px;
+	/*min-height: 2200px;*/
+	vertical-align: bottom;
+	margin: 0 0 0 152px;
+	font-size: 50px;
+	font-color: white;
+	font-family: microsoft yi baiti;
+}
+
+#The {
+	margin-top: 180px;
+	margin-left: 25px;
+}
+
+#GoT {
+	margin-top: 0px;
+	margin-left: 25px;
+}
+
+#Sails {
+	margin-left: 25px;
+}
+
+#Vikings {
+	margin-left: 25px;
+}
+
+#Rome {
+	margin-left: 25px;
+}
+
+#France {
+	margin-left: 25px;
+}
+
+a:hover{ color:red; }
+
+	a {
+		color: white;
+		text-decoration: none}

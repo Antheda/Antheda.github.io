@@ -1,0 +1,43 @@
+body 
+{
+min-width: 400px;
+	max-width: 1450px;
+	max-height: 300px;
+
+	background-image: url('../images/alliance.jpg');
+	background-size: cover;
+	
+	
+
+}
+
+h1 {
+	font-size: 80px;
+}
+
+nav, main, aside, section, li{
+
+	height: 70px;
+}
+
+nav {
+	margin: 75px;
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#banner {
+	max-width: 1800px;
+	min-width: 1700px;
+	min-height: 3280px;
+	vertical-align: bottom;
+	margin: 0 0 0 152px;
+	font-size: 50px;
+	color: white;
+	font-family: microsoft yi baiti; }
+
+	a:hover{ color:red; }
+
+	a {
+		color: white;
+		text-decoration: none}

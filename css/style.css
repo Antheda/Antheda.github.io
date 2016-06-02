@@ -1,0 +1,123 @@
+body{
+	min-width: 400px;
+	max-width: 1450px;
+	max-height: 300px;
+
+	background-image: url('../images/site.jpg');
+	background-size: cover;
+
+}
+
+
+
+nav, main, aside, section, li{
+
+	height: 70px;
+}
+
+nav {
+	margin: 75px;
+
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+	
+#banner {
+	min-width: 1700px;
+	margin-bottom: 1000px;
+	vertical-align: bottom;
+	margin: 0 0 0 152px;
+	font-size: 50px;
+	font-color: white;
+	font-family: microsoft yi baiti;
+	
+
+
+
+}	
+	
+
+
+
+nav, footer{
+	width: 100%;
+}
+
+
+main{
+	width: 99%;
+	height: auto;
+	display: inline-block;
+	min-height: 660px;
+}
+
+
+
+main ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+main ul li{
+	width: 48%;
+	display: inline-block;
+	
+}
+
+#video {
+	/*margin: 0 0 0 180px;
+	max-width: 800px;
+	margin-right: 0px; */
+	width: 20%;
+	display: inline-block;
+	margin-left: 200px;
+}
+
+#picture  {
+	width:20%;
+	display: inline-block;	
+	margin-left: 640px;
+
+   
+
+}
+
+
+
+
+
+a:hover{ color:red; }
+
+	a {
+		color: white;
+		text-decoration: none}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+	body{
+		background-color: aqua;
+	}
+	main{
+		width: 70%;
+	}
+	
+	}
+}
+
+
+
+@media screen and (min-width: 0px) and (max-width: 570px){
+	body{
+		background-color:blue;
+	}
+	main, aside, mail ul li{
+		display:block;
+		width: 98%;
+	}
+
+
+
+}
